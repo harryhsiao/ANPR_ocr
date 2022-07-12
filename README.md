@@ -3,8 +3,8 @@
 本篇旨在利用 python 撰寫出一套可行的車牌辨識系統 , 並能夠在 arm ( aarch64-linux ) 架構的開發板( embedded linux )上進行辨識,
 並提供即時的串流影像於螢幕上<br/>
 
-## 要準備的套件( 皆為 pythhon )
-  1. opencv3 ( 才有 opencv_createsamples.exe )
+## 要準備的套件( 皆為 python )
+  1. opencv3 ( 才有 opencv_createsamples.exe 及 opencv_traincascade.exe )
   2. numpy
   3. imutils
 
